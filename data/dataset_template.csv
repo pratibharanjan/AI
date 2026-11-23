@@ -1,0 +1,6 @@
+Order ID,Order Date,Product Name,Category,Quantity,Sales,Profit,Region
+ORD-1001,2025-01-05,Wireless Mouse,Accessories,3,899.97,299.97,North
+ORD-1002,2025-01-12,Laptop Stand,Accessories,2,1599.98,499.98,West
+ORD-1003,2025-02-03,Monitor,Electronics,1,12999.0,1899.0,South
+ORD-1004,2025-02-18,Keyboard,Accessories,4,3199.96,799.96,East
+ORD-1005,2025-03-08,Laptop,Electronics,1,54999.0,6499.0,North

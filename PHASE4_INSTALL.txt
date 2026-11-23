@@ -1,0 +1,21 @@
+PHASE 4 INCREMENTAL UPDATE
+
+Copy only these items into your existing AI_Sales_Analytics master project:
+
+1. app.py -> replace the existing root app.py
+2. .streamlit/config.toml -> add the .streamlit folder if it does not already exist; if it exists, back up and replace config.toml.
+
+Do NOT replace:
+- .venv
+- data/
+- modules/
+- models/
+- tests/
+- requirements.txt
+
+This update uses the Phase 3 modules without changing them.
+
+Run from your existing activated virtual environment:
+    streamlit run app.py
+
+No new dependencies are required. The dashboard uses the existing Phase 3 modules.

@@ -1,0 +1,26 @@
+PHASE 6 INSTALLATION — AI INSIGHTS
+
+Use your existing master folder: AI_Sales_Analytics
+
+1. Extract this ZIP.
+2. Copy app.py into AI_Sales_Analytics and choose Replace.
+3. Copy modules/ai_insights.py into AI_Sales_Analytics/modules/ (new file).
+4. Copy tests/test_ai_insights.py into AI_Sales_Analytics/tests/ (new file).
+5. Keep your existing .venv, data folder, and all Phase 2–5 modules. Do not delete them.
+6. No new packages are required for this phase.
+
+Open the VS Code terminal in AI_Sales_Analytics and run:
+
+    .venv\Scripts\activate
+    streamlit run app.py
+
+Optional test:
+
+    python -m pytest -q tests/test_ai_insights.py
+
+Open AI Insights in the sidebar and click Generate business insights.
+
+NOTE:
+This phase uses a local rule-based insight engine, not a connected LLM.
+It does not upload or send your dataset to an external AI service.
+The recommendations are prompts for investigation, not guaranteed causes.

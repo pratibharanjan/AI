@@ -1,0 +1,39 @@
+PHASE 8 INSTALLATION — FINAL POLISH
+
+Continue using your existing master folder: AI_Sales_Analytics
+
+1. Extract this ZIP.
+2. Replace app.py.
+3. Add modules/project_health.py.
+4. Replace README.md and .gitignore.
+5. Replace requirements.txt with the included version.
+6. Add .streamlit/config.toml (create the .streamlit folder if needed).
+7. Add tests/test_project_health.py.
+8. Keep all previous modules, tests, data and your existing .venv.
+
+In VS Code terminal, from the AI_Sales_Analytics folder:
+
+    .venv\Scripts\activate
+    python -m pip install -r requirements.txt
+    python -m pytest -q
+    streamlit run app.py
+
+GitHub steps:
+1. Create a new empty repository on GitHub.
+2. In the VS Code terminal, run:
+
+    git init
+    git add .
+    git status
+    git commit -m "Complete AI sales analytics project"
+    git branch -M main
+    git remote add origin YOUR_GITHUB_REPOSITORY_URL
+    git push -u origin main
+
+Replace YOUR_GITHUB_REPOSITORY_URL with the repository URL copied from GitHub.
+Review `git status` before committing. Do not upload private datasets, credentials,
+or confidential customer information.
+
+The app's Project Health page checks installed packages, required files and
+the currently loaded dataset. Its Ready status is a diagnostic, not proof that
+every feature works with every possible dataset.
